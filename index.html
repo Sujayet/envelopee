@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAHEB THIS IS FOR YOU</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Sk Saheb.</strong>
+                        <p>
+                            "In your eyes, I found my home, and in your heart, I found my forever. I love you more than
+                            words can express."<br>
+                            <br>
+                            "Being embraced as a cherished member of your family fills my heart with joy and gratitude.
+                            I am endlessly happy to have you by my side, not just as my beloved partner but also as a
+                            cherished addition to your wonderful family."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+            <div class="heart1">
+                <button type="button">CLICK To THE HEART TO OPEN THE ENVELOPE</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+
+</html>
